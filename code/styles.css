@@ -1,0 +1,41 @@
+h1 {
+	display: inline;
+}
+
+form {
+	display: inline;
+}
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color: blue;
+}
+
+img {
+	border: 1px solid black;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+#searchBox {
+	width: 300px;
+	height: 20px;
+}
+
+#red  {
+	color: red;
+}
+
+#yellow  {
+	color: goldenrod;
+}
+
+#green {
+	color: green;
+}
+

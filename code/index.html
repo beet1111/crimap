@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Search for crime data.">
+	<title>Crimap</title>	
+	<script type="text/javascript" src="functions.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<link  type="text/css" href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<h1><a href="index.html">Crimap</a></h1>
+
+	<form onsubmit="return search();">
+		<input type="text" id="searchBox" placeholder="Search for crime data in USA.">
+		<input type="submit" id="searchButton" value="search">
+	</form>
+
+	<button onclick="geoCrime();"> locate</button>
+	<a href="about.html"> information</a>
+
+	<br><br>
+
+	<?php
+		include 'body.php';
+	?>
+	
+<br>
+<p>Disclaimer: The accuracy of this information is not guaranteed.</p>
+</body>
+</html>
